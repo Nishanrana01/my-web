@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #023047;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+}
+#nav{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1rem;
+    background-color: #8ecae6;
+   
+    z-index: 5000;    
+}
+.navigation{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.logo .author{
+    font-family: "Playfair Display", serif;
+}
+.nav_items{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-right: 2rem;
+
+}
+.nav_items a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.nav_item{
+    font-family: "Playfair Display", serif;
+}
+.section{
+    height: 100vh;
+    padding: 1rem;
+    background-color:aliceblue;
+}
+.hero_container{
+    display: flex;
+    justify-content: space-around;
+ align-items: center;
+ width: 100%;
+ max-width: 70vw;
+ margin: auto;
+ gap: 7rem;
+
+
+}
+.left{
+
+}
+.left .author_name {
+    font-size: 1.3rem;
+    font-family: "Playwrite GB S", cursive;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.left .fname, .left .lname {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: bold;
+}
+.left .lname{
+    margin-left: 1rem;
+}
+.left .author_description{
+
+    font-size: 1.1rem;
+    padding: .5rem;
+}
+.social{
+    display: flex;
+    margin: 1rem 0;
+    color: red;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.social a {
+    text-decoration: none;
+
+}
+.social .icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: all .3s ease3;
+    
+
+}
+.social .icon:hover{
+    transform: scale(1.2);
+    transition:all .3s ease;
+}
+.about_section{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    max-width: 70vw;
+    margin: auto;
+    font-family: "Playfair Display", serif;
+}
+.about_section .profile{
+    height: 70vh;
+    
+}
+.profile img{
+    width: inherit;
+    height: inherit;
+    border-radius: .5rem;
+}
+.intro h1 {
+    font-size: 2rem;
+    font-weight: bold;
+
+    
+}
+.intro p{
+    text-align: justify;
+    margin-top: 1rem;
+}
